@@ -1,1 +1,1 @@
-# USTGlobal-Flipkart-PoornimaKN
+# USTGlobal-Assessment-PoornimaKN
