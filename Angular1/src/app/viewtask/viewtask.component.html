@@ -1,0 +1,20 @@
+<br><br><br>
+    <div class="container col-md-5">
+        <table class="table table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>Task</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>{{message}}</td>
+                    <td><button type="submit" class="btn btn-outline-primary" (click)="edit(data)">Edit</button></td>
+                    <td><button type="reset" class="btn btn-outline-danger" (click)="delete(data)">Delete</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+

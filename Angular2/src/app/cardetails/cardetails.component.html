@@ -1,0 +1,9 @@
+<div class="col-md-8 offset-md-1 card card-body mt-3" *ngIf="carDetails!=''" style="background-color:papayawhip;">
+    <img [src]="carDetails.img" class="card-img-top float-left" alt="">
+</div>
+<div class="col-md-8 offset-md-1 card card-body" *ngIf="carDetails!=''"  style="background-color:papayawhip;">
+    <h4>{{carDetails.brand}}</h4>
+    <p>{{carDetails.description}}</p>
+</div>
+
+

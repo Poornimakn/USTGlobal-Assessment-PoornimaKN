@@ -1,0 +1,16 @@
+<div class="container col-md-4">
+    <br><br>
+<form action="" #form="ngForm" (ngSubmit)="post(form)" class="card card-body">
+    <legend class="text-center">Add Task</legend>
+    <br>
+    <div class="form-group">
+        <label for="">Input Task</label>
+        <input type="text" class="form-control" id="" placeholder="Enter Task" 
+        name="task" #task="ngModel" ngModel >
+    </div>
+
+    <button type="submit" class="btn btn-outline-success">Submit</button><br>
+    <button type="reset" class="btn btn-outline-danger">Reset</button>
+</form>
+<app-viewtask [tasks]="users"></app-viewtask>
+</div>
